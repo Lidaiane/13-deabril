@@ -1,0 +1,23 @@
+:root {
+    --cor-de-fundo: black;
+    --cor-de-titulo: blue;
+    --botão-verde: green;
+    --cor-principal: yelloW;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color:var(--botão-verde);
+    
+}
+* {
+    margin: 0%;
+    padding: 2%;
+}
+.principal{
+    background-image: url("maquina tronco");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 50vh;
+}
